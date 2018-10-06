@@ -1,0 +1,4 @@
+github.com/jarcoal/httpmock v0.0.0-20180424175123-9c70cfe4a1da h1:FjHUJJ7oBW4G/9j1KzlHaXL09LyMVM9rupS39lncbXk=
+github.com/jarcoal/httpmock v0.0.0-20180424175123-9c70cfe4a1da/go.mod h1:ks+b9deReOc7jgqp+e7LuFiCBH6Rm5hL32cLcEAArb4=
+github.com/jarcoal/httpmock v0.0.0-20180719183105-8007e27cdb32 h1:hBufcn/i2Petw3NL2331fY81/wWxNt11ks7CkadZAlw=
+github.com/jarcoal/httpmock v0.0.0-20180719183105-8007e27cdb32/go.mod h1:ks+b9deReOc7jgqp+e7LuFiCBH6Rm5hL32cLcEAArb4=

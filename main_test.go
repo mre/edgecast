@@ -2,10 +2,11 @@ package edgecast
 
 import (
 	"fmt"
-	"gopkg.in/jarcoal/httpmock.v1"
 	"io/ioutil"
 	"reflect"
 	"testing"
+
+	"github.com/jarcoal/httpmock"
 )
 
 func TestClient(t *testing.T) {
@@ -46,7 +47,7 @@ func TestClient(t *testing.T) {
 	}
 
 	if !reflect.DeepEqual(dataBW, &expectedBW) {
-		t.Errorf("Expected %s (type %#v), got %s (type %#v)", expectedBW, expectedBW, dataBW, dataBW)
+		t.Errorf("Expected %#v, got %#v", expectedBW, dataBW)
 	}
 
 	// Test connection request
@@ -62,7 +63,7 @@ func TestClient(t *testing.T) {
 	}
 
 	if !reflect.DeepEqual(dataConn, &expectedConn) {
-		t.Errorf("Expected %s (type %#v), got %s (type %#v)", expectedConn, expectedConn, dataConn, dataConn)
+		t.Errorf("Expected %#v, got %#v", expectedConn, dataConn)
 	}
 
 	// Test cachestatus request
