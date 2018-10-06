@@ -2,10 +2,11 @@ package edgecast
 
 import (
 	"fmt"
-	"gopkg.in/jarcoal/httpmock.v1"
 	"io/ioutil"
 	"reflect"
 	"testing"
+
+	"github.com/jarcoal/httpmock"
 )
 
 func TestClient(t *testing.T) {
