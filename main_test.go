@@ -47,7 +47,7 @@ func TestClient(t *testing.T) {
 	}
 
 	if !reflect.DeepEqual(dataBW, &expectedBW) {
-		t.Errorf("Expected %#v, got %#v", expectedBW, dataBW)
+		t.Errorf("Expected %v (type %#v), got %v (type %#v)", expectedBW, expectedBW, dataBW, dataBW)
 	}
 
 	// Test connection request
@@ -63,7 +63,7 @@ func TestClient(t *testing.T) {
 	}
 
 	if !reflect.DeepEqual(dataConn, &expectedConn) {
-		t.Errorf("Expected %#v, got %#v", expectedConn, dataConn)
+		t.Errorf("Expected %v (type %#v), got %v (type %#v)", expectedConn, expectedConn, dataConn, dataConn)
 	}
 
 	// Test cachestatus request

@@ -1,3 +1,3 @@
 module github.com/mre/edgecast
 
-require github.com/jarcoal/httpmock v0.0.0-20180424175123-9c70cfe4a1da
+require gopkg.in/jarcoal/httpmock.v1 v1.0.0-20180719183105-8007e27cdb32
