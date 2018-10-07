@@ -1,6 +1,8 @@
 # edgecast
 
-A golang client for the [Edgecast CDN API](https://www.programmableweb.com/api/edgecast-cdn).  
+[![Build Status](https://travis-ci.org/mre/edgecast.svg?branch=master)](https://travis-ci.org/mre/edgecast)
+
+A golang client for the [Edgecast CDN API](https://www.programmableweb.com/api/edgecast-cdn).
 
 ## Installation
 
